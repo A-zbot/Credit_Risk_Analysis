@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Model files
+models/*.pkl
+
+# Processed datasets
+data/processed/
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+D:\prjct2\credit risk\data\raw\german_credit_data.csv
