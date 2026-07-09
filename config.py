@@ -1,6 +1,6 @@
 from pathlib import Path 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
@@ -12,5 +12,11 @@ FIGURES_DIR = REPORTS_DIR / "figures"
 
 DATASET_NAME = "german_credit_data.csv"
 DATASET_PATH = RAW_DATA_DIR / DATASET_NAME
-TARGET_COLUMN = "Risk"  
+TARGET_COLUMN = "kredit"
+
+TEST_SIZE = 0.2
+RANDOM_STATE = 42
+MODEL_FILE = MODELS_DIR / "credit_risk_model.pkl"
+SCALER_FILE = MODELS_DIR / "scaler.pkl"
+ENCODER_FILE = MODELS_DIR / "encoder.pkl"
 
