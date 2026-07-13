@@ -28,3 +28,11 @@ def train_all_models(models, X_train, y_train):
 
     print("=" * 60)
     return trained_models
+
+def save_model(model):
+    joblib.dump(model, MODEL_FILE)
+    print("This model has been saved successfully.")
+   
+if __name__ == "__main__":
+    print("This module has been imported by main.py.")
+    
