@@ -1,0 +1,10 @@
+Credit Risk Assessment Model
+========================================
+
+Best Model: logistic_regression
+
+Accuracy: 0.8100
+Precision: 0.7200
+Recall: 0.6000
+F1 Score: 0.6545
+Roc Auc: 0.8274
